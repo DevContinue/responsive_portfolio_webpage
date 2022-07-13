@@ -7,7 +7,7 @@
                 <span class="material-symbols-rounded"> menu </span>
             </label>
         <ul>
-          <li><a href="">Über Mich</a></li>
+          <li><a href="#about_me_section">Über Mich</a></li>
           <li><a href="">Dienstleistungen</a></li>
           <li><a href="">Mehr Informationen</a></li>
         </ul>
@@ -40,7 +40,7 @@ export default {
 
 <style lang="scss">
 header {
-  padding: 50px 25px;
+  padding: 100px 25px;
   display: flex;
   justify-content: center;
   align-items: center;

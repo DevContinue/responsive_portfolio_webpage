@@ -1,16 +1,19 @@
 <template>
   
   <Header />
+  <SectionAboutMe />
   
 </template>
 
 <script>
 import Header from './components/Header.vue'
+import SectionAboutMe from './components/SectionAboutMe.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
+    SectionAboutMe,
   },
 
   props: {
@@ -39,7 +42,7 @@ body {
 }
 
 h1{
-  font-size: 50px;
+  font-size: 100px;
   line-height: 115%;
 }
 
