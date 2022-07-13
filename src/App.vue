@@ -3,6 +3,7 @@
   <Header />
   <SectionAboutMe />
   <SectionServices />
+  <Footer />
   
 </template>
 
@@ -10,6 +11,7 @@
 import Header from './components/Header.vue'
 import SectionAboutMe from './components/SectionAboutMe.vue'
 import SectionServices from './components/SectionServices.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'App',
@@ -17,6 +19,7 @@ export default {
     Header,
     SectionAboutMe,
     SectionServices,
+    Footer,
   },
 
   props: {
@@ -65,6 +68,9 @@ h3 {
   }
   .subheading {
     text-align: center;
+  }
+  body{
+    font-size: 16px;
   }
 }
 
