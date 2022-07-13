@@ -2,18 +2,21 @@
   
   <Header />
   <SectionAboutMe />
+  <SectionServices />
   
 </template>
 
 <script>
 import Header from './components/Header.vue'
 import SectionAboutMe from './components/SectionAboutMe.vue'
+import SectionServices from './components/SectionServices.vue'
 
 export default {
   name: 'App',
   components: {
     Header,
     SectionAboutMe,
+    SectionServices,
   },
 
   props: {
