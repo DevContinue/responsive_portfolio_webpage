@@ -8,7 +8,7 @@
             </label>
         <ul>
           <li><a href="#about_me_section">Über Mich</a></li>
-          <li><a href="">Dienstleistungen</a></li>
+          <li><a href="#services_section">Dienstleistungen</a></li>
           <li><a href="">Mehr Informationen</a></li>
         </ul>
       </nav>
