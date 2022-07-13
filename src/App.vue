@@ -49,6 +49,10 @@ h1{
   line-height: 115%;
 }
 
+h3 {
+  font-size: 38px;
+}
+
 .subheading {
   margin-top: 25px;
   color: $ciGrey
